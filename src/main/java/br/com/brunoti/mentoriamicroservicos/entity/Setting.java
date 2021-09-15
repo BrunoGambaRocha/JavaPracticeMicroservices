@@ -1,5 +1,7 @@
 package br.com.brunoti.mentoriamicroservicos.entity;
 
+import java.sql.Timestamp;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -18,6 +20,9 @@ public class Setting {
 	@Column(name = "STATUS", nullable = false)
 	private Boolean status;
 
+	@Column(name = "CRIATED_IN")
+	private Timestamp criatedIn;
+
 	public Long getId() {
 		return id;
 	}
@@ -33,4 +38,13 @@ public class Setting {
 	public void setStatus(Boolean status) {
 		this.status = status;
 	}
+
+	public Timestamp getCriatedIn() {
+		return criatedIn;
+	}
+
+	public void setCriatedIn(Timestamp criatedIn) {
+		this.criatedIn = criatedIn;
+	}
+
 }

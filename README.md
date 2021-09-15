@@ -11,7 +11,8 @@
 
 ##  Objetivo
 
-- Construir uma aplicação de micro serviço do zero com Spring Boot, Java e Banco de Dados H2
+- Praticar a construção de um micro serviço do zero com Spring Boot, Java, banco de dados H2, e framework JPA para a camada de persistência dos dados.
+- Micro serviço com agendamento para execução a cada 10 minutos, para armazenamento no banco de dados local, registrando um id, status booleano, e o horário do momento da execução.
 
 
 <hr>
@@ -20,10 +21,13 @@
 
 - Microserviços
 - Java 11
-- Scheduling
 - Spring Initializr: Maven Project / Java 11 / Spring Boot 2.5.4 / Spring Web / Spring Data JPA / H2 Database
+- @Component
+- @Repository
+- @Scheduling
+- @Bean
 - VS Code
-- DBeaver - https://dbeaver.io
+- [DBeaver](https://dbeaver.io)
 
 
 <hr>
@@ -38,16 +42,10 @@
 
 <hr>
 
-## Desafio proposto
-
-- 
-
-
-<hr>
-
 ## Pesquisa Complementar
 
--
+- [JPA Repositories](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.repositories)
+- [O que é Spring Data JPA](https://blog.algaworks.com/spring-data-jpa/)
 
 
 <hr>
